@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8" />
+<head>
+      <title>Задание 3</title>
+<style>
+#d { width: 128px;
+	height: 128px; 
+	position: relative;
+}
+
+body {
+   	   background: #C5D0E6;
+	   color: #79553D;
+   }
+
+</style>
+</head>
+<img id="d" src="pip.png" >
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).on('keydown', function(e) {
+  switch (e.key) {
+
+    // перемещение влево
+    case "ArrowLeft":
+      $('#d').animate({
+        left: "-=100px"
+      }, 'fast');
+      break;
+      // перемещение вверх
+    case "ArrowUp":
+      $('#d').animate({
+        top: "-=100px"
+      }, 'fast');
+      break;
+      // перемещение вправо
+    case "ArrowRight":
+      $('#d').animate({
+        left: "+=100px"
+      }, 'fast');
+      break;
+      // перемещение вниз
+    case "ArrowDown":
+      $('#d').animate({
+        top: "+=100px"
+      }, 'fast');
+      break;
+  }
+});
+</script>

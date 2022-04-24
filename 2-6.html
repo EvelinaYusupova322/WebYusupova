@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8" />
+      <title>Задание 6</title>
+<body>
+  <div>Как расшифровывается "УГАТУ"?</div><br>
+  <div> <input type="radio" name="guitar" id="choice1"> Уфимский государственный авиационный технический университет</div><br>
+  <div> <input type="radio" name="guitar" id="choice2"> Украинский государственный армейский технический университет</div><br>
+  <div> <input type="radio" name="guitar" id="choice3"> Удмуртский гризонтальный авиационный технический университет</div><br>
+  <div> <input type="radio" name="guitar" id="choice4"> Уфимское гостепримное авиационное техническое учереждение</div><br>
+  <div> <input type="radio" name="guitar" id="choice5"> Увинский государственный аквапарк тренировок университета</div><br>
+<button class="ok">Отправить результат</button><br><br>
+  Всего ответило - <input value="0" id="resultNum" style="width:30px;" readonly> чел.<br>
+  <input value="0" id="realResult1" style="width:30px;" readonly>% - Уфимский государственный авиационный технический университет
+  <input value="0" id="result1" type="hidden"><br>
+  <input value="0" id="realResult2" style="width:30px;" readonly>% - Украинский государственный армейский технический университет
+  <input value="0" id="result2" type="hidden"><br>
+  <input value="0" id="realResult3" style="width:30px;" readonly>% - Удмуртский гризонтальный авиационный технический университет
+  <input value="0" id="result3" type="hidden"><br>
+  <input value="0" id="realResult4" style="width:30px;" readonly>% - Уфимское гостепримное авиационное техническое учереждение
+  <input value="0" id="result4" type="hidden"><br>
+  <input value="0" id="realResult5" style="width:30px;" readonly>% - Увинский государственный аквапарк тренировок университета
+  <input value="0" id="result5" type="hidden"><br>
+      <style>
+
+body {
+   	   background: #C5D0E6;
+	   color: #79553D;
+   }
+
+</style>
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(".ok").click(function(){
+	var totalNum=0;
+		for (var i=1;i<=5;i++){
+			totalNum=totalNum+parseInt($('#result'+i).val());
+		}
+		for (var i=1;i<=5;i++){
+			var radioIsChecked = $('#choice'+i).prop('checked');
+			if (radioIsChecked == true){
+				$('#result'+i).val((parseInt($('#result'+i).val())+1).toString());
+				totalNum++;
+				$('#resultNum').val(totalNum.toString());
+			}
+		}
+		for (var i=1;i<=5;i++){
+			$('#realResult'+i).val(Math.round((parseInt($('#result'+i).val())/totalNum*100)).toString());
+		}
+        });
+</script>
