@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <id>1</id>
+        <title>Пип</title>
+        <picture>src/image/pip.png</picture>
+        <author>Елена Помаскина</author>
+        <value>Знакомьтесь! Пип — самый любопытный лягуш во всей округе. Квасота, квация, кваризматичность — идеал всё-таки существует.</value>
+    </item>
+    <item>
+        <id>2</id>
+        <title>Бананос</title>
+        <picture>src/image/ban.png</picture>
+        <author>"Пятёрочка"</author>
+        <value>Этот хитрый фрукт добавит в твои диалоги щепотку отборного мемасного юмора. Смотри не поскользнись!)</value>
+    </item>
+    <item>
+        <id>3</id>
+        <title>Снеппи</title>
+        <picture>src/image/snap.png</picture>
+        <author>Snapster</author>
+        <value>Снеппи — это рыбка Вашей мечты. Ещё и талисман. Посмотрите на неё и на любую другую рыбку: да, Снеппи на коне!</value>
+    </item>
+    <item>
+        <id>4</id>
+        <title>Рамзес</title>
+        <picture>src/image/ram2.png</picture>
+        <author>Ник Толабов</author>
+        <value>Лысым котикам сложнее маскировать недовольство — о нём говорит каждая складочка. Но стоит подарить им немного любви и тепла, как морщинки на мордочке сложатся в улыбку.</value>
+        </item>
+    <item>
+        <id>5</id>
+        <title>Снежок</title>
+        <picture>src/image/sne.png</picture>
+        <author>Анна Мозговец</author>
+        <value>Если друг тебя не замечает — брось в него снежком!</value>
+        </item>
+    <item>
+        <id>6</id>
+        <title>Нутри</title>
+        <picture>src/image/nut.webp</picture>
+        <author>Ирина Брэдкэт</author>
+        <value>Даже ненастье не нарушит планы Нутри, ведь у неё водонепроницаемая шёрстка. Хватайте плащи и резиновые сапоги — айда гулять!</value>
+        </item>
+    <item>
+        <id>7</id>
+        <title>Рози и Вайлет</title>
+        <picture>src/image/poz.webp</picture>
+        <author>Анна Мозговец</author>
+        <value>Рози и Вайлет — это влюбленные лисята, которые наполнят ваши диалоги самыми нежными чувствами!</value>
+        </item>
+    <item>
+        <id>8</id>
+        <title>Свободный от забот</title>
+        <picture>src/image/svo.webp</picture>
+        <author>Константин Брилевский</author>
+        <value>Не сегодня, так завтра!</value>
+        </item>
+    <item>
+        <id>9</id>
+        <title>Сеня</title>
+        <picture>src/image/sen.webp</picture>
+        <author>Елена Савченко</author>
+        <value>Дружелюбный хомяк Сеня верит в чудеса и мечтает стать королём Печенькового Королевства.</value>
+        </item>
+    <item>
+        <id>10</id>
+        <title>Твиг</title>
+        <picture>src/image/tvi.webp</picture>
+        <author>Кристина Третьякова</author>
+        <value>Твиг — морская свинка,
+Пёстренькая спинка.
+В осень и ненастье —
+Ваш рецепт для счастья!</value>
+        </item>
+    <item>
+        <id>11</id>
+        <title>Коко</title>
+        <picture>src/image/kok.png</picture>
+        <author>Лина Садердинова</author>
+        <value>Малая панда, кошачий медведь, огненная лисица — так много названий!.. Чтобы понять, кто же такой Коко, нужно всего лишь познакомиться поближе. Зверёк настолько общительный, что привёл своего друга — пандочку Чоко. В этой компании точно не заскучаешь!</value>
+        </item>
+    <item>
+        <id>12</id>
+        <title>Дигги</title>
+        <picture>src/image/dig.webp</picture>
+        <author>Михаил Голубь</author>
+        <value>Пёс Дигги обожает мемесы. В общем-то, он и сам сплошной мемес. Кек.</value>
+        </item>
+    <item>
+        <id>13</id>
+        <title>Котик</title>
+        <picture>src/image/cat.webp</picture>
+        <author>Елена Савченко</author>
+        <value>Привет. Все зовут меня Котик, я вырос на улице и знаю, где можно найти парочку вкусных мышей ;)</value>
+        </item>
+    <item>
+        <id>14</id>
+        <title>Мео</title>
+        <picture>src/image/meo.webp</picture>
+        <author>Ксения Крашник</author>
+        <value>Сладенький, пушистый и невероятно мягкий комочек злости.</value>
+        </item>
+    <item>
+        <id>15</id>
+        <title>Лягуш</title>
+        <picture>src/image/lya.webp</picture>
+        <author>Валерий Матюхин</author>
+        <value>Король болота и зыбучей трясины. Повелитель камыша и кувшинок. Маленький, зелёный и очень гордый Лягуш.</value>
+        </item>
+</items>

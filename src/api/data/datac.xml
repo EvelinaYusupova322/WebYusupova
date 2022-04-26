@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+    <item>
+        <id>1</id>
+        <name>Есенин Сергей Александрович</name>
+        <email>senya@mail.ru</email>
+        <value>
+            В глазах пески зеленые
+            И облака.
+            По кружеву крапленому
+            Скользит рука.
+
+            То близкая, то дальняя,
+            И так всегда.
+            Судьба ее печальная —
+            Моя беда.
+        </value>
+    </item>
+    <item>
+        <id>2</id>
+        <name>Константин Симонов</name>
+        <email>kostyan@rambler.ru</email>
+        <value>Жди меня, и я вернусь…</value>
+    </item>
+    <item>
+        <id>3</id>
+        <name>Марина Цветаева</name>
+        <email>mary@yandex.ru</email>
+        <value>Почему ты плачешь? — Так. —</value>
+    </item>
+    <item>
+        <id>4</id>
+        <name>Эвелина</name>
+        <email>evelelkaaa@.gmail.com</email>
+        <value>Я устала...</value>
+    </item>
+    <item>
+        <id>5</id>
+        <name>Кто-то</name>
+        <email>kto-to@.gmail.com</email>
+        <value>Xто-то</value>
+    </item>
+    <item>
+        <id>6</id>
+        <name>Проверкин</name>
+        <email>proverka@mail.ru</email>
+        <value>
+            Проверка
+        </value>
+    </item>
+</items>
