@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Примитивный редактор табличных данных.</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="js/script.js" type="text/javascript"></script>
+    </head>
+<body>
+    <div class="book" id="wrap">
+        <table align="center" width="100%" cellspacing="1" cellpadding="1" border="1">
+            <caption><h1>Книги</h1></caption>
+            <tr>
+                 <th width="30px">№ П/п</th>
+                 <th width="40px">Название</th>
+                 <th width="30px">Автор</th>
+                 <th width="500px">Краткое описание</th>
+                 <th width="20px">Рейтинг</th>
+                 <th width="20px">Цена</th>
+                 <th width="30px">Магазин</th>
+            </tr>
+            <tr> 
+		        <td  align="center" id="item1_title" contenteditable="false">1</td>
+                <td  align="center" id="item1_content" contenteditable="true">Ночевала тучка золотая</td>
+                <td  align="center" id="item1_content" contenteditable="true">Анатолий Приставкин</td>
+                <td  align="center" id="item1_content" contenteditable="true">Эта повесть - призыв писателя к справедливости, ответственности взрослых за судьбы детей, который должен услышать каждый.</td>
+                <td  align="center" id="item1_content" contenteditable="true">9.24</td>
+                <td  align="center" id="item1_content" contenteditable="true">1000 р.</td>
+                <td  align="center" id="item1_content" contenteditable="true">https://www.labirint.ru/books/180860/</td>
+		    </tr>
+		    <tr> 
+		        <td  align="center" id="item1_title" contenteditable="false">2</td>
+                <td  align="center" id="item1_content" contenteditable="true">Старик и море. Острова и море</td>
+                <td  align="center" id="item1_content" contenteditable="true">Эрнест Хемингуэй</td>
+                <td  align="center" id="item1_content" contenteditable="true">Это рассказ о "трагическом стоицизме" и мужестве, о том, как перед лицом безжалостной судьбы и одиночества человек, даже проигрывая, должен сохранять достоинство.</td>
+                <td  align="center" id="item1_content" contenteditable="true">9.00</td>
+                <td  align="center" id="item1_content" contenteditable="true">669 р.</td>
+                <td  align="center" id="item1_content" contenteditable="true">https://www.labirint.ru/books/761351/</td>
+		    </tr>
+		    <tr> 
+		        <td  align="center" id="item1_title" contenteditable="false">3</td>
+                <td  align="center" id="item1_content" contenteditable="true">Мальчик у Христа на ёлке</td>
+                <td  align="center" id="item1_content" contenteditable="true">Федор Достоевский</td>
+                <td  align="center" id="item1_content" contenteditable="true">В рождественском рассказе "Мальчик у Христа на ёлке" (1876) Достоевский поднимает характерную для его творчества тему брошенного и голодного ребёнка. В предсмертных грёзах у замерзающего мальчика сбывается мечта: он оказывается на новогоднем...</td>
+                <td  align="center" id="item1_content" contenteditable="true">9.44</td>
+                <td  align="center" id="item1_content" contenteditable="true">293 р.</td>
+                <td  align="center" id="item1_content" contenteditable="true">https://www.labirint.ru/books/621167/</td>
+		    </tr>
+		    <tr> 
+		        <td  align="center" id="item1_title" contenteditable="false">4</td>
+                <td  align="center" id="item1_content" contenteditable="true">Ночевала тучка золотая</td>
+                <td  align="center" id="item1_content" contenteditable="true">Анатолий Приставкин</td>
+                <td  align="center" id="item1_content" contenteditable="true">Эта повесть - призыв писателя к справедливости, ответственности взрослых за судьбы детей, который должен услышать каждый.</td>
+                <td  align="center" id="item1_content" contenteditable="true">9.24</td>
+                <td  align="center" id="item1_content" contenteditable="true">1000 р.</td>
+                <td  align="center" id="item1_content" contenteditable="true">https://www.labirint.ru/books/180860/</td>
+		    </tr>
+		    <tr> 
+		        <td  align="center" id="item1_title" contenteditable="false">5</td>
+                <td  align="center" id="item1_content" contenteditable="true">Старик и море. Острова и море</td>
+                <td  align="center" id="item1_content" contenteditable="true">Эрнест Хемингуэй</td>
+                <td  align="center" id="item1_content" contenteditable="true">Это рассказ о "трагическом стоицизме" и мужестве, о том, как перед лицом безжалостной судьбы и одиночества человек, даже проигрывая, должен сохранять достоинство.</td>
+                <td  align="center" id="item1_content" contenteditable="true">9.00</td>
+                <td  align="center" id="item1_content" contenteditable="true">669 р.</td>
+                <td  align="center" id="item1_content" contenteditable="true">https://www.labirint.ru/books/761351/</td>
+		    </tr>
+		    <tr> 
+		        <td  align="center" id="item1_title" contenteditable="false">6</td>
+                <td  align="center" id="item1_content" contenteditable="true">Мальчик у Христа на ёлке</td>
+                <td  align="center" id="item1_content" contenteditable="true">Федор Достоевский</td>
+                <td  align="center" id="item1_content" contenteditable="true">В рождественском рассказе "Мальчик у Христа на ёлке" (1876) Достоевский поднимает характерную для его творчества тему брошенного и голодного ребёнка. В предсмертных грёзах у замерзающего мальчика сбывается мечта: он оказывается на новогоднем...</td>
+                <td  align="center" id="item1_content" contenteditable="true">9.44</td>
+                <td  align="center" id="item1_content" contenteditable="true">293 р.</td>
+                <td  align="center" id="item1_content" contenteditable="true">https://www.labirint.ru/books/621167/</td>
+		    </tr>
+		</table>	<button id="save">Сохранить</button>
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

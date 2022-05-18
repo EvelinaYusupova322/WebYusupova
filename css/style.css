@@ -1,0 +1,86 @@
+body {		
+		font-family: Helvetica,Arial,sans-serif;
+		color:#333333;
+		font-size:13px;
+		    	background: 100% 100% url("https://kartinkin.net/uploads/posts/2021-07/1626786187_8-kartinkin-com-p-fon-knizhnii-shkaf-krasivo-8.jpg");
+	}
+body .book{		
+     box-shadow: 0 0 3px #999;
+     padding: 0px 60px 60px 60px;
+     background: #Fff;
+     opacity: 0.9;
+     border-radius: 5px;
+     float: center;
+		    
+	}
+	
+    h1{
+		font-family: 'Droid Serif', Georgia, Times, serif;
+		font-size: 28px;		
+	}
+	
+	a{
+		color: #0071D8;
+		text-decoration:none;
+	}
+	
+	a:hover{
+		text-decoration:underline;
+	}
+
+	
+	
+	#wrap{
+		width: 800px;
+		margin:0 auto;				
+		overflow:auto;		
+	}
+	
+                      [contenteditable="true"]:hover {
+                        background-color: #f7f0ee;           
+                      } 
+	
+	#status{
+		display:none; 
+		margin-bottom:15px; 
+		padding:5px 10px; 
+		border-radius:5px;
+	}
+	
+	.success{
+		background: #B6D96C;
+	}
+	
+	.error{
+		background: #ffc5cf; 
+	}
+	#save{	
+		display: none; 
+		margin: 5px 10px 10px;		
+		outline: none;
+		cursor: pointer;	
+		text-align: center;
+		text-decoration: none;
+		font: 16px/100% Arial, Helvetica, sans-serif;
+		font-weight:700;	
+		padding: 15px 25px;	
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px;
+		border-radius: 5px;	
+		color: #606060;
+		border: solid 1px #b7b7b7;	
+		background: #fff;
+		background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+		background: -moz-linear-gradient(top,  #fff,  #ededed);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+	}	
+	
+	#save:hover
+	{
+        background: #ededed;
+		background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+		background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+		filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+	}
+
+
